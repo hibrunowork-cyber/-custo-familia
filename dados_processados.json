@@ -1,0 +1,3652 @@
+[
+  {
+    "linha_original": "Pessoal Nubank COMPRAS / BARRASHOP 00046 Sh Barra Rio Ja 184.70 Parcela 2/2 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Nubank",
+    "categoria_completa": "COMPRAS / BARRASHOP",
+    "categoria": "COMPRAS",
+    "subcategoria": "BARRASHOP",
+    "gasto_original": "00046 Sh Barra Rio Ja",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 184.7,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Nubank COMPRAS / SHOPEE Shopee Sophiakidsbaby 73.11 Parcela 2/2 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Nubank",
+    "categoria_completa": "COMPRAS / SHOPEE",
+    "categoria": "COMPRAS",
+    "subcategoria": "SHOPEE",
+    "gasto_original": "Shopee Sophiakidsbaby",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 73.11,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Nubank COMPRAS / ROUPAS E CALÇADOS Sonhodp Sonhodpes237 59.97 Parcela 4/6 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Nubank",
+    "categoria_completa": "COMPRAS / ROUPAS E CALÇADOS",
+    "categoria": "COMPRAS",
+    "subcategoria": "ROUPAS E CALÇADOS",
+    "gasto_original": "Sonhodp Sonhodpes237",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 59.97,
+    "parcela_atual": 4,
+    "parcelas_total": 6,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 4
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 5
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": 6
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Nubank COMPRAS / ROUPAS E CALÇADOS Converse All Star - Co 73.30 Parcela 5/6 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Nubank",
+    "categoria_completa": "COMPRAS / ROUPAS E CALÇADOS",
+    "categoria": "COMPRAS",
+    "subcategoria": "ROUPAS E CALÇADOS",
+    "gasto_original": "Converse All Star - Co",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 73.3,
+    "parcela_atual": 5,
+    "parcelas_total": 6,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 5
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 6
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Nubank COMPRAS / ROUPAS E CALÇADOS Levi Strauss do Brasil 96.64 Parcela 3/6 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Nubank",
+    "categoria_completa": "COMPRAS / ROUPAS E CALÇADOS",
+    "categoria": "COMPRAS",
+    "subcategoria": "ROUPAS E CALÇADOS",
+    "gasto_original": "Levi Strauss do Brasil",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 96.64,
+    "parcela_atual": 3,
+    "parcelas_total": 6,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 3
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 4
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": 5
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": 6
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Nubank COMPRAS / ROUPAS E CALÇADOS Lofty Style Comercial 277.92 Parcela 4/4 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Nubank",
+    "categoria_completa": "COMPRAS / ROUPAS E CALÇADOS",
+    "categoria": "COMPRAS",
+    "subcategoria": "ROUPAS E CALÇADOS",
+    "gasto_original": "Lofty Style Comercial",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 277.92,
+    "parcela_atual": 4,
+    "parcelas_total": 4,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 4
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito CONTAS / MERCADO DO MÊS - 1800.00 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "CONTAS / MERCADO DO MÊS",
+    "categoria": "CONTAS",
+    "subcategoria": "MERCADO DO MÊS",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 1800.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito CONTAS / ELEVA - 10000.00 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "CONTAS / ELEVA",
+    "categoria": "CONTAS",
+    "subcategoria": "ELEVA",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 10000.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito TRANSPORTE / SEM PARAR - 700.00 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "TRANSPORTE / SEM PARAR",
+    "categoria": "TRANSPORTE",
+    "subcategoria": "SEM PARAR",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 700.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito TRANSPORTE / GASOLINA - 1200.00 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "TRANSPORTE / GASOLINA",
+    "categoria": "TRANSPORTE",
+    "subcategoria": "GASOLINA",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 1200.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Consultório Débito CONTAS / ALUGUEL CEO - 3090.82 Dez/2025 fix - -",
+    "carteira": "Consultório",
+    "fonte": "Débito",
+    "categoria_completa": "CONTAS / ALUGUEL CEO",
+    "categoria": "CONTAS",
+    "subcategoria": "ALUGUEL CEO",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 3090.82,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito CONTAS / GLOBAL - 5249.09 Dez/2025 - simples caution",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "CONTAS / GLOBAL",
+    "categoria": "CONTAS",
+    "subcategoria": "GLOBAL",
+    "gasto_original": "-",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "caution",
+    "valor": 5249.09,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito SAÚDE / FONO - 1760.00 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "SAÚDE / FONO",
+    "categoria": "SAÚDE",
+    "subcategoria": "FONO",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 1760.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito CONTAS / GÁS - 120.00 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "CONTAS / GÁS",
+    "categoria": "CONTAS",
+    "subcategoria": "GÁS",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 120.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito CONTAS / LUZ - 1500.00 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "CONTAS / LUZ",
+    "categoria": "CONTAS",
+    "subcategoria": "LUZ",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 1500.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito CONTAS / CONDOMÍNIO - 2290.00 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "CONTAS / CONDOMÍNIO",
+    "categoria": "CONTAS",
+    "subcategoria": "CONDOMÍNIO",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 2290.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito CONTAS / ALUGUEL - 4171.98 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "CONTAS / ALUGUEL",
+    "categoria": "CONTAS",
+    "subcategoria": "ALUGUEL",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 4171.98,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito CONTAS / INTERNET & CELULAR - 599.74 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "CONTAS / INTERNET & CELULAR",
+    "categoria": "CONTAS",
+    "subcategoria": "INTERNET & CELULAR",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 599.74,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito SAÚDE / TERAPEUTA BRUNO - 1200.00 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "SAÚDE / TERAPEUTA BRUNO",
+    "categoria": "SAÚDE",
+    "subcategoria": "TERAPEUTA BRUNO",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 1200.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito SAÚDE / TERAPEUTA DIO - 1200.00 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "SAÚDE / TERAPEUTA DIO",
+    "categoria": "SAÚDE",
+    "subcategoria": "TERAPEUTA DIO",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 1200.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito SAÚDE / PERSONAL GABI - 1600.00 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "SAÚDE / PERSONAL GABI",
+    "categoria": "SAÚDE",
+    "subcategoria": "PERSONAL GABI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 1600.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito CONTAS / PLANO DE SAÚDE - 12482.68 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "CONTAS / PLANO DE SAÚDE",
+    "categoria": "CONTAS",
+    "subcategoria": "PLANO DE SAÚDE",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 12482.68,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / RIHAPPY RI RAPPY 126.64 Parcela 3/03 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / RIHAPPY",
+    "categoria": "COMPRAS",
+    "subcategoria": "RIHAPPY",
+    "gasto_original": "RI RAPPY",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 126.64,
+    "parcela_atual": 3,
+    "parcelas_total": 3,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 3
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / IPHONE BEE VIVO RJ LJ J001 63.00 Parcela 3/03 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / IPHONE BEE",
+    "categoria": "COMPRAS",
+    "subcategoria": "IPHONE BEE",
+    "gasto_original": "VIVO RJ LJ J001",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 63.0,
+    "parcela_atual": 3,
+    "parcelas_total": 3,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 3
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / IPHONE BRUNO VIVO RJ LJ J001 390.42 Parcela 3/21 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / IPHONE BRUNO",
+    "categoria": "COMPRAS",
+    "subcategoria": "IPHONE BRUNO",
+    "gasto_original": "VIVO RJ LJ J001",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 390.42,
+    "parcela_atual": 3,
+    "parcelas_total": 21,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 3
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 4
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": 5
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": 6
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": 7
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": 8
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": 9
+      },
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": 10
+      },
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": 11
+      },
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": 12
+      },
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": 13
+      },
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": 14
+      },
+      {
+        "chave": "2026-12",
+        "nome": "Dezembro",
+        "parcela": 15
+      },
+      {
+        "chave": "2027-01",
+        "nome": "Janeiro",
+        "parcela": 16
+      },
+      {
+        "chave": "2027-02",
+        "nome": "Fevereiro",
+        "parcela": 17
+      },
+      {
+        "chave": "2027-03",
+        "nome": "Março",
+        "parcela": 18
+      },
+      {
+        "chave": "2027-04",
+        "nome": "Abril",
+        "parcela": 19
+      },
+      {
+        "chave": "2027-05",
+        "nome": "Maio",
+        "parcela": 20
+      },
+      {
+        "chave": "2027-06",
+        "nome": "Junho",
+        "parcela": 21
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru SAÚDE / AFETO CLINICA V EIRE AFETO CLINICA V EIRE 393.00 Parcela 3/03 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "SAÚDE / AFETO CLINICA V EIRE",
+    "categoria": "SAÚDE",
+    "subcategoria": "AFETO CLINICA V EIRE",
+    "gasto_original": "AFETO CLINICA V EIRE",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 393.0,
+    "parcela_atual": 3,
+    "parcelas_total": 3,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 3
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru PETSHOP / CVBT EsdrasElpidio 401.66 Parcela 3/03 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "PETSHOP / CVBT",
+    "categoria": "PETSHOP",
+    "subcategoria": "CVBT",
+    "gasto_original": "EsdrasElpidio",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 401.66,
+    "parcela_atual": 3,
+    "parcelas_total": 3,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 3
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / SEPHORA SEPHORA BARRA 231.50 Parcela 4/04 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / SEPHORA",
+    "categoria": "COMPRAS",
+    "subcategoria": "SEPHORA",
+    "gasto_original": "SEPHORA BARRA",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 231.5,
+    "parcela_atual": 4,
+    "parcelas_total": 4,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 4
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru SAÚDE / ÓTICA VISION LINE BARRA FR 350.00 Parcela 5/06 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "SAÚDE / ÓTICA",
+    "categoria": "SAÚDE",
+    "subcategoria": "ÓTICA",
+    "gasto_original": "VISION LINE BARRA FR",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 350.0,
+    "parcela_atual": 5,
+    "parcelas_total": 6,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 5
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 6
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru SAÚDE / NATAÇÃO CLARINHA BT O2 PENINSULA 494.00 Parcela 9/12 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "SAÚDE / NATAÇÃO CLARINHA",
+    "categoria": "SAÚDE",
+    "subcategoria": "NATAÇÃO CLARINHA",
+    "gasto_original": "BT O2 PENINSULA",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 494.0,
+    "parcela_atual": 9,
+    "parcelas_total": 12,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 9
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 10
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": 11
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": 12
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / AMAZON AMAZON BR 209.49 Parcela 3/04 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / AMAZON",
+    "categoria": "COMPRAS",
+    "subcategoria": "AMAZON",
+    "gasto_original": "AMAZON BR",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 209.49,
+    "parcela_atual": 3,
+    "parcelas_total": 4,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 3
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 4
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / PRESENTE AQUELE MIMO 259.72 Parcela 3/04 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / PRESENTE",
+    "categoria": "COMPRAS",
+    "subcategoria": "PRESENTE",
+    "gasto_original": "AQUELE MIMO",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 259.72,
+    "parcela_atual": 3,
+    "parcelas_total": 4,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 3
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 4
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / AMAZON AMAZON BR 128.79 Parcela 4/04 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / AMAZON",
+    "categoria": "COMPRAS",
+    "subcategoria": "AMAZON",
+    "gasto_original": "AMAZON BR",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 128.79,
+    "parcela_atual": 4,
+    "parcelas_total": 4,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 4
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / AMAZON AMAZON BR 399.99 Parcela 6/12 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / AMAZON",
+    "categoria": "COMPRAS",
+    "subcategoria": "AMAZON",
+    "gasto_original": "AMAZON BR",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 399.99,
+    "parcela_atual": 6,
+    "parcelas_total": 12,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 6
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 7
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": 8
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": 9
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": 10
+      },
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": 11
+      },
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": 12
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru ASSIN / MOISES AI EBURY*QSOFT LLC 166.92 Parcela 6/06 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "ASSINATURAS / MOISES AI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MOISES AI",
+    "gasto_original": "EBURY*QSOFT LLC",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 166.92,
+    "parcela_atual": 6,
+    "parcelas_total": 6,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 6
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / LEGO LEGO BARRA 127.49 Parcela 2/02 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / LEGO",
+    "categoria": "COMPRAS",
+    "subcategoria": "LEGO",
+    "gasto_original": "LEGO BARRA",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 127.49,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMIDA / LANCHE LINDT SPRUNGLI 130.47 Parcela 2/02 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMIDA / LANCHE",
+    "categoria": "COMIDA",
+    "subcategoria": "LANCHE",
+    "gasto_original": "LINDT SPRUNGLI",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 130.47,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / ROUPAS E CALÇADOS RSV RJ BARRA SHOPPIN 149.75 Parcela 2/04 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / ROUPAS E CALÇADOS",
+    "categoria": "COMPRAS",
+    "subcategoria": "ROUPAS E CALÇADOS",
+    "gasto_original": "RSV RJ BARRA SHOPPIN",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 149.75,
+    "parcela_atual": 2,
+    "parcelas_total": 4,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 3
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": 4
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / PELI IPHONE IPAD CELLAIRIS 104.45 Parcela 2/02 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / PELI IPHONE IPAD",
+    "categoria": "COMPRAS",
+    "subcategoria": "PELI IPHONE IPAD",
+    "gasto_original": "CELLAIRIS",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 104.45,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / BOLEIRA LaBaitUtilidades 129.95 Parcela 2/02 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / BOLEIRA",
+    "categoria": "COMPRAS",
+    "subcategoria": "BOLEIRA",
+    "gasto_original": "LaBaitUtilidades",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 129.95,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru SAÚDE / AFETO CLINICA V EIRE AFETO CLINICA V EIRE 305.00 Parcela 2/02 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "SAÚDE / AFETO CLINICA V EIRE",
+    "categoria": "SAÚDE",
+    "subcategoria": "AFETO CLINICA V EIRE",
+    "gasto_original": "AFETO CLINICA V EIRE",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 305.0,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru PETSHOP / CVBT EsdrasElpidio 303.68 Parcela 2/03 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "PETSHOP / CVBT",
+    "categoria": "PETSHOP",
+    "subcategoria": "CVBT",
+    "gasto_original": "EsdrasElpidio",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 303.68,
+    "parcela_atual": 2,
+    "parcelas_total": 3,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 3
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru SAÚDE / DROGARIA DROGARIA VENANCIO 56.44 Parcela 2/02 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "SAÚDE / DROGARIA",
+    "categoria": "SAÚDE",
+    "subcategoria": "DROGARIA",
+    "gasto_original": "DROGARIA VENANCIO",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 56.44,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / ACESSORIOS CELL VX CASE 189.33 Parcela 3/03 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / ACESSORIOS CELL",
+    "categoria": "COMPRAS",
+    "subcategoria": "ACESSORIOS CELL",
+    "gasto_original": "VX CASE",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 189.33,
+    "parcela_atual": 3,
+    "parcelas_total": 3,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 3
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / MERCADO LIVRE MERCADOLIVRE*MERCADO 60.45 Parcela 2/02 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / MERCADO LIVRE",
+    "categoria": "COMPRAS",
+    "subcategoria": "MERCADO LIVRE",
+    "gasto_original": "MERCADOLIVRE*MERCADO",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 60.45,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / SEPHORA SEPHORA BARRA 185.80 Parcela 2/03 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / SEPHORA",
+    "categoria": "COMPRAS",
+    "subcategoria": "SEPHORA",
+    "gasto_original": "SEPHORA BARRA",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 185.8,
+    "parcela_atual": 2,
+    "parcelas_total": 3,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 3
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / KALUNGA KALUNGA BARRA SHOPPI 74.05 Parcela 2/02 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / KALUNGA",
+    "categoria": "COMPRAS",
+    "subcategoria": "KALUNGA",
+    "gasto_original": "KALUNGA BARRA SHOPPI",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 74.05,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru PETSHOP / CVBT COBASI 91.90 Parcela 2/02 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "PETSHOP / CVBT",
+    "categoria": "PETSHOP",
+    "subcategoria": "CVBT",
+    "gasto_original": "COBASI",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 91.9,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / AMAZON AMAZON MARKETPLACE 82.89 Parcela 2/02 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / AMAZON",
+    "categoria": "COMPRAS",
+    "subcategoria": "AMAZON",
+    "gasto_original": "AMAZON MARKETPLACE",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 82.89,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru SAÚDE / DROGARIA RD SAUDE 83.01 Parcela 2/02 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "SAÚDE / DROGARIA",
+    "categoria": "SAÚDE",
+    "subcategoria": "DROGARIA",
+    "gasto_original": "RD SAUDE",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 83.01,
+    "parcela_atual": 2,
+    "parcelas_total": 2,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Bru COMPRAS / AMAZON AMAZONMKTPLC*ALPHACO 88.42 Parcela 2/03 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Bru",
+    "categoria_completa": "COMPRAS / AMAZON",
+    "categoria": "COMPRAS",
+    "subcategoria": "AMAZON",
+    "gasto_original": "AMAZONMKTPLC*ALPHACO",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 88.42,
+    "parcela_atual": 2,
+    "parcelas_total": 3,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 3
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Consultório Sant-Gab ASSIN / DOCTORALIA DOCTORALIA 579.00 Parcela 09/12 - parcelada -",
+    "carteira": "Consultório",
+    "fonte": "Sant-Gab",
+    "categoria_completa": "ASSINATURAS / DOCTORALIA",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "DOCTORALIA",
+    "gasto_original": "DOCTORALIA",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 579.0,
+    "parcela_atual": 9,
+    "parcelas_total": 12,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 9
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 10
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": 11
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": 12
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Gab ASSIN / CANVA EBN CANVA04436 24.15 Parcela 10/12 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Gab",
+    "categoria_completa": "ASSINATURAS / CANVA",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CANVA",
+    "gasto_original": "EBN CANVA04436",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 24.15,
+    "parcela_atual": 10,
+    "parcelas_total": 12,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 10
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 11
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": 12
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Gab COMPRAS / ROUPAS E CALÇADOS LOFTY STYLE COMERCIAL 779.77 Parcela 04/06 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Gab",
+    "categoria_completa": "COMPRAS / ROUPAS E CALÇADOS",
+    "categoria": "COMPRAS",
+    "subcategoria": "ROUPAS E CALÇADOS",
+    "gasto_original": "LOFTY STYLE COMERCIAL",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 779.77,
+    "parcela_atual": 4,
+    "parcelas_total": 6,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 4
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 5
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": 6
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Gab SAÚDE / MONJARO RIOSKIN MEDICAL 2290.00 Parcela 05/06 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Gab",
+    "categoria_completa": "SAÚDE / MONJARO",
+    "categoria": "SAÚDE",
+    "subcategoria": "MONJARO",
+    "gasto_original": "RIOSKIN MEDICAL",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 2290.0,
+    "parcela_atual": 5,
+    "parcelas_total": 6,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 5
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 6
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Gab COMPRAS / SEPHORA SEPHORA BARRA 65.70 Parcela 09/10 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Gab",
+    "categoria_completa": "COMPRAS / SEPHORA",
+    "categoria": "COMPRAS",
+    "subcategoria": "SEPHORA",
+    "gasto_original": "SEPHORA BARRA",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 65.7,
+    "parcela_atual": 9,
+    "parcelas_total": 10,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 9
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 10
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Sant-Gab COMPRAS / IPHONE BEE VIVO RJ LJ J001 801.00 Parcela 08/12 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Sant-Gab",
+    "categoria_completa": "COMPRAS / IPHONE BEE",
+    "categoria": "COMPRAS",
+    "subcategoria": "IPHONE BEE",
+    "gasto_original": "VIVO RJ LJ J001",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 801.0,
+    "parcela_atual": 8,
+    "parcelas_total": 12,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 8
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 9
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": 10
+      },
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": 11
+      },
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": 12
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau TRANSPORTE / UBER Uber uber *trip help.u 73.39 - - simples -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "TRANSPORTE / UBER",
+    "categoria": "TRANSPORTE",
+    "subcategoria": "UBER",
+    "gasto_original": "Uber uber *trip help.u",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "-",
+    "valor": 73.39,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau TRANSPORTE / UBER Uber* trip 43.79 - - simples -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "TRANSPORTE / UBER",
+    "categoria": "TRANSPORTE",
+    "subcategoria": "UBER",
+    "gasto_original": "Uber* trip",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "-",
+    "valor": 43.79,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau SAÚDE / LENTE DIO Dra eliane brasil 1425.00 Parcela 2/4 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "SAÚDE / LENTE DIO",
+    "categoria": "SAÚDE",
+    "subcategoria": "LENTE DIO",
+    "gasto_original": "Dra eliane brasil",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 1425.0,
+    "parcela_atual": 2,
+    "parcelas_total": 4,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 2
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 3
+      },
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": 4
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau COMPRAS / CLARINHA Kids park 900.00 - - simples -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "COMPRAS / CLARINHA",
+    "categoria": "COMPRAS",
+    "subcategoria": "CLARINHA",
+    "gasto_original": "Kids park",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "-",
+    "valor": 900.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau COMIDA / IFOOD Ifd*alv -ct 79.00 - - simples -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "COMIDA / IFOOD",
+    "categoria": "COMIDA",
+    "subcategoria": "IFOOD",
+    "gasto_original": "Ifd*alv -ct",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "-",
+    "valor": 79.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau CUIDADOS / SALÃO BELEZA Espaco vs hairco 104.75 - - simples -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "CUIDADOS / SALÃO BELEZA",
+    "categoria": "CUIDADOS",
+    "subcategoria": "SALÃO BELEZA",
+    "gasto_original": "Espaco vs hairco",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "-",
+    "valor": 104.75,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau SAÚDE / DROGARIA Rd saude 114.52 - - simples -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "SAÚDE / DROGARIA",
+    "categoria": "SAÚDE",
+    "subcategoria": "DROGARIA",
+    "gasto_original": "Rd saude",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "-",
+    "valor": 114.52,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau COMIDA / LANCHE Cafeteria campo da paz 22.88 - - simples -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "COMIDA / LANCHE",
+    "categoria": "COMIDA",
+    "subcategoria": "LANCHE",
+    "gasto_original": "Cafeteria campo da paz",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "-",
+    "valor": 22.88,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau TRANSPORTE / ESTACIONAMENTO Prime parking 23.00 - - simples -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "TRANSPORTE / ESTACIONAMENTO",
+    "categoria": "TRANSPORTE",
+    "subcategoria": "ESTACIONAMENTO",
+    "gasto_original": "Prime parking",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "-",
+    "valor": 23.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau TRANSPORTE / ESTACIONAMENTO Allpark empreendimento 21.00 - - simples -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "TRANSPORTE / ESTACIONAMENTO",
+    "categoria": "TRANSPORTE",
+    "subcategoria": "ESTACIONAMENTO",
+    "gasto_original": "Allpark empreendimento",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "-",
+    "valor": 21.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau COMIDA / MERCADINHO Vlls market ltda me 34.96 - - simples -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "COMIDA / MERCADINHO",
+    "categoria": "COMIDA",
+    "subcategoria": "MERCADINHO",
+    "gasto_original": "Vlls market ltda me",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "-",
+    "valor": 34.96,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau COMIDA / LANCHE Giuseppe sq 407.20 - - simples -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "COMIDA / LANCHE",
+    "categoria": "COMIDA",
+    "subcategoria": "LANCHE",
+    "gasto_original": "Giuseppe sq",
+    "tipo": "-",
+    "frequencia": "simples",
+    "caution": "-",
+    "valor": 407.2,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau COMPRAS / LEGO Lego barra 250.02 Parcela 3/4 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "COMPRAS / LEGO",
+    "categoria": "COMPRAS",
+    "subcategoria": "LEGO",
+    "gasto_original": "Lego barra",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 250.02,
+    "parcela_atual": 3,
+    "parcelas_total": 4,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 3
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 4
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau COMPRAS / CLARINHA Kids park 1766.70 Parcela 6/6 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "COMPRAS / CLARINHA",
+    "categoria": "COMPRAS",
+    "subcategoria": "CLARINHA",
+    "gasto_original": "Kids park",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 1766.7,
+    "parcela_atual": 6,
+    "parcelas_total": 6,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 6
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Itau SAÚDE / CONSULTA NALU Nalu servicos medi 465.00 Parcela 9/10 - parcelada -",
+    "carteira": "Pessoal",
+    "fonte": "Itau",
+    "categoria_completa": "SAÚDE / CONSULTA NALU",
+    "categoria": "SAÚDE",
+    "subcategoria": "CONSULTA NALU",
+    "gasto_original": "Nalu servicos medi",
+    "tipo": "-",
+    "frequencia": "parcelada",
+    "caution": "-",
+    "valor": 465.0,
+    "parcela_atual": 9,
+    "parcelas_total": 10,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": 9
+      },
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": 10
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Jan/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Fev/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Mar/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Abr/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Mai/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Jun/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Jul/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Ago/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Set/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Out/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Nov/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / CLUBE IFOOD & UBER - 21.90 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / CLUBE IFOOD & UBER",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "CLUBE IFOOD & UBER",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 21.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Jan/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Fev/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Mar/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Abr/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Mai/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Jun/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Jul/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Ago/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Set/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Out/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MUBI - 20.94 Nov/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MUBI",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MUBI",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 20.94,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Dez/2025 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Jan/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-01",
+        "nome": "Janeiro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Fev/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-02",
+        "nome": "Fevereiro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Mar/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-03",
+        "nome": "Março",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Abr/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-04",
+        "nome": "Abril",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Mai/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-05",
+        "nome": "Maio",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Jun/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-06",
+        "nome": "Junho",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Jul/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-07",
+        "nome": "Julho",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Ago/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-08",
+        "nome": "Agosto",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Set/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-09",
+        "nome": "Setembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Out/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-10",
+        "nome": "Outubro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Nov/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-11",
+        "nome": "Novembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / MELI+ - 66.90 Dez/2026 fix - -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / MELI+",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "MELI+",
+    "gasto_original": "-",
+    "tipo": "fix",
+    "frequencia": "-",
+    "caution": "-",
+    "valor": 66.9,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2026-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  },
+  {
+    "linha_original": "Pessoal Débito ASSINATURAS / WEBVIP SEO +IA - 834.00 Dez/2025 - anual -",
+    "carteira": "Pessoal",
+    "fonte": "Débito",
+    "categoria_completa": "ASSINATURAS / WEBVIP SEO +IA",
+    "categoria": "ASSINATURAS",
+    "subcategoria": "WEBVIP SEO +IA",
+    "gasto_original": "-",
+    "tipo": "-",
+    "frequencia": "anual",
+    "caution": "-",
+    "valor": 834.0,
+    "parcela_atual": null,
+    "parcelas_total": null,
+    "meses_parcelas": [
+      {
+        "chave": "2025-12",
+        "nome": "Dezembro",
+        "parcela": null
+      },
+      {
+        "chave": "2026-12",
+        "nome": "Dezembro",
+        "parcela": null
+      }
+    ],
+    "novo": false
+  }
+]

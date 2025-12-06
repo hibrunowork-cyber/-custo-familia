@@ -1,0 +1,125 @@
+import json
+import re
+import os
+
+def processar_linha(linha):
+    """Processa uma linha do arquivo DADOS_07.txt"""
+    partes = linha.strip().split('|')
+    
+    if len(partes) != 4:
+        return None
+    
+    fonte, gasto, valor_str, parcelas_str = partes
+    
+    # Pular linha de cabeçalho
+    if fonte == "Fonte":
+        return None
+    
+    # Processar valor
+    try:
+        # Remove pontos de milhar e troca vírgula por ponto
+        valor_limpo = valor_str.strip()
+        # Se tem vírgula, é o separador decimal brasileiro
+        if ',' in valor_limpo:
+            valor_limpo = valor_limpo.replace('.', '').replace(',', '.')
+        valor = float(valor_limpo)
+    except:
+        valor = 0.0
+    
+    # Processar categoria e subcategoria
+    if ' / ' in gasto:
+        partes_gasto = gasto.split(' / ', 1)
+        categoria = partes_gasto[0].strip()
+        subcategoria = partes_gasto[1].strip()
+        
+        # Normalizar algumas categorias
+        if categoria == "ASSIN":
+            categoria = "ASSINATURAS"
+        elif categoria == "LAZER":
+            categoria = "COMPRAS"  # Conforme vi nos dados processados
+        
+    else:
+        categoria = gasto.strip()
+        subcategoria = gasto.strip()
+    
+    categoria_completa = f"{categoria} / {subcategoria}" if categoria != subcategoria else categoria
+    
+    # Processar parcelas
+    parcela_atual = None
+    parcelas_total = None
+    
+    if parcelas_str and parcelas_str != '-':
+        # Tentar extrair números de parcelas
+        match = re.search(r'(\d+)[/\s]+(\d+)', parcelas_str)
+        if match:
+            parcela_atual = int(match.group(1))
+            parcelas_total = int(match.group(2))
+    
+    # Montar objeto
+    return {
+        "linha_original": linha.strip().replace('|', ' '),
+        "fonte": fonte,
+        "categoria_completa": categoria_completa,
+        "categoria": categoria,
+        "subcategoria": subcategoria,
+        "valor": valor,
+        "parcela_atual": parcela_atual,
+        "parcelas_total": parcelas_total
+    }
+
+def processar_dados_07():
+    """Processa o arquivo DADOS_07.txt e gera dados_processados.json"""
+    
+    print("🔄 Processando arquivo DADOS_07.txt...")
+    
+    # Carregar dados anteriores se existirem
+    dados_anteriores = []
+    if os.path.exists('dados_processados.json'):
+        try:
+            with open('dados_processados.json', 'r', encoding='utf-8') as f:
+                dados_anteriores = json.load(f)
+        except:
+            dados_anteriores = []
+    
+    # Criar um set de linhas originais anteriores para comparação
+    linhas_anteriores = {item['linha_original'] for item in dados_anteriores}
+    
+    dados = []
+    novos_count = 0
+    
+    # Ler arquivo DADOS_07.txt
+    with open('src/DADOS_07.txt', 'r', encoding='utf-8') as f:
+        for linha in f:
+            linha = linha.strip()
+            if not linha:
+                continue
+            
+            item = processar_linha(linha)
+            if item:
+                # Verificar se é um registro novo
+                if item['linha_original'] not in linhas_anteriores:
+                    item['novo'] = True
+                    novos_count += 1
+                else:
+                    # Manter o status de novo se já era novo antes
+                    item_anterior = next((d for d in dados_anteriores if d['linha_original'] == item['linha_original']), None)
+                    item['novo'] = item_anterior.get('novo', False) if item_anterior else False
+                
+                dados.append(item)
+    
+    if novos_count > 0:
+        print(f"🆕 Detectados {novos_count} novos lançamentos!")
+    
+    # Salvar dados processados
+    with open('dados_processados.json', 'w', encoding='utf-8') as f:
+        json.dump(dados, f, ensure_ascii=False, indent=2)
+    
+    print(f"✅ Processamento concluído!")
+    print(f"📊 Total de registros: {len(dados)}")
+    print(f"💰 Total: R$ {sum(d['valor'] for d in dados):,.2f}")
+    
+    return dados
+
+if __name__ == '__main__':
+    processar_dados_07()
+

@@ -1,0 +1,580 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Gastos</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            overflow: hidden;
+        }
+
+        header {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
+
+        .total-geral {
+            font-size: 2em;
+            font-weight: bold;
+            margin-top: 20px;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            display: inline-block;
+        }
+
+        .chart-section {
+            padding: 40px;
+            text-align: center;
+        }
+
+        .chart-container {
+            max-width: 600px;
+            margin: 0 auto;
+            position: relative;
+            height: 400px;
+        }
+
+        .list-section {
+            padding: 40px;
+            background: #f8f9fa;
+        }
+
+        .filters {
+            display: flex;
+            gap: 15px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .filter-group {
+            flex: 1;
+            min-width: 200px;
+        }
+
+        .filter-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #333;
+        }
+
+        .filter-group select,
+        .filter-group input {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 1em;
+            transition: border-color 0.3s;
+        }
+
+        .filter-group select:focus,
+        .filter-group input:focus {
+            outline: none;
+            border-color: #667eea;
+        }
+
+        .category-card {
+            background: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+        }
+
+        .category-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+        }
+
+        .category-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+            padding-bottom: 15px;
+            border-bottom: 2px solid #eee;
+        }
+
+        .category-name {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #333;
+        }
+
+        .category-total {
+            font-size: 1.8em;
+            font-weight: bold;
+            color: #667eea;
+        }
+
+        .item {
+            padding: 12px;
+            margin: 8px 0;
+            background: #f8f9fa;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .item-info {
+            flex: 1;
+        }
+
+        .item-descricao {
+            font-weight: 500;
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .item-detalhes {
+            font-size: 0.9em;
+            color: #666;
+        }
+
+        .item-valor {
+            font-size: 1.2em;
+            font-weight: bold;
+            color: #28a745;
+            margin-left: 20px;
+        }
+
+        .parcela-badge {
+            background: #ffc107;
+            color: #333;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            margin-left: 10px;
+        }
+
+        .fonte-badge {
+            background: #17a2b8;
+            color: white;
+            padding: 4px 8px;
+            border-radius: 4px;
+            font-size: 0.85em;
+            margin-left: 10px;
+        }
+
+        .previsao-section {
+            padding: 40px;
+            background: #fff;
+        }
+
+        .previsao-section h2 {
+            text-align: center;
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .mes-card {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .mes-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .mes-nome {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        .mes-total {
+            font-size: 1.8em;
+            font-weight: bold;
+        }
+
+        .parcela-item {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin: 8px 0;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .section-title {
+            font-size: 2em;
+            color: #333;
+            margin-bottom: 30px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        @media (max-width: 768px) {
+            .filters {
+                flex-direction: column;
+            }
+
+            .category-header {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+
+            .category-total {
+                margin-top: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>📊 Análise de Gastos</h1>
+            <div class="total-geral" id="totalGeral">Total: R$ 0,00</div>
+        </header>
+
+        <div class="chart-section">
+            <h2 class="section-title">Gastos por Categoria</h2>
+            <div class="chart-container">
+                <canvas id="pieChart"></canvas>
+            </div>
+        </div>
+
+        <div class="list-section">
+            <h2 class="section-title">Detalhamento por Categoria</h2>
+            
+            <div class="filters">
+                <div class="filter-group">
+                    <label for="filterCategoria">Filtrar por Categoria:</label>
+                    <select id="filterCategoria">
+                        <option value="">Todas as Categorias</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterFonte">Filtrar por Fonte:</label>
+                    <select id="filterFonte">
+                        <option value="">Todas as Fontes</option>
+                        <option value="Santander">Santander</option>
+                        <option value="Itaú">Itaú</option>
+                        <option value="Nubank">Nubank</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterBusca">Buscar:</label>
+                    <input type="text" id="filterBusca" placeholder="Digite para buscar...">
+                </div>
+            </div>
+
+            <div id="categoriesList"></div>
+        </div>
+
+        <div class="previsao-section">
+            <h2 class="section-title">💰 Previsão de Custos Mensais - Compras Parceladas</h2>
+            <div id="previsaoList"></div>
+        </div>
+    </div>
+
+    <script>
+        // Carregar dados
+        fetch('dados_processados.json')
+            .then(response => response.json())
+            .then(dados => {
+                inicializarDashboard(dados);
+            })
+            .catch(error => {
+                console.error('Erro ao carregar dados:', error);
+                document.getElementById('totalGeral').textContent = 'Erro ao carregar dados';
+            });
+
+        function inicializarDashboard(dados) {
+            // Calcular total geral
+            const totalGeral = dados.reduce((sum, item) => sum + item.valor, 0);
+            document.getElementById('totalGeral').textContent = `Total: R$ ${totalGeral.toLocaleString('pt-BR', {minimumFractionDigits: 2, maximumFractionDigits: 2})}`;
+
+            // Agrupar por categoria
+            const categorias = {};
+            dados.forEach(item => {
+                if (!categorias[item.categoria]) {
+                    categorias[item.categoria] = {
+                        nome: item.categoria,
+                        total: 0,
+                        itens: []
+                    };
+                }
+                categorias[item.categoria].total += item.valor;
+                categorias[item.categoria].itens.push(item);
+            });
+
+            // Ordenar categorias por total
+            const categoriasArray = Object.values(categorias).sort((a, b) => b.total - a.total);
+
+            // Criar gráfico de pizza
+            criarGraficoPizza(categoriasArray);
+
+            // Preencher filtro de categorias
+            const selectCategoria = document.getElementById('filterCategoria');
+            categoriasArray.forEach(cat => {
+                const option = document.createElement('option');
+                option.value = cat.nome;
+                option.textContent = `${cat.nome} (R$ ${cat.total.toLocaleString('pt-BR', {minimumFractionDigits: 2})})`;
+                selectCategoria.appendChild(option);
+            });
+
+            // Exibir lista de categorias
+            exibirCategorias(categoriasArray);
+
+            // Calcular previsão de parcelas
+            calcularPrevisaoParcelas(dados);
+
+            // Adicionar event listeners para filtros
+            document.getElementById('filterCategoria').addEventListener('change', () => filtrarCategorias(categoriasArray));
+            document.getElementById('filterFonte').addEventListener('change', () => filtrarCategorias(categoriasArray));
+            document.getElementById('filterBusca').addEventListener('input', () => filtrarCategorias(categoriasArray));
+        }
+
+        function criarGraficoPizza(categorias) {
+            const ctx = document.getElementById('pieChart').getContext('2d');
+            
+            // Cores vibrantes para o gráfico
+            const cores = [
+                '#FF6384', '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF',
+                '#FF9F40', '#FF6384', '#C9CBCF', '#4BC0C0', '#FF6384',
+                '#36A2EB', '#FFCE56', '#4BC0C0', '#9966FF', '#FF9F40'
+            ];
+
+            new Chart(ctx, {
+                type: 'pie',
+                data: {
+                    labels: categorias.map(c => c.nome),
+                    datasets: [{
+                        data: categorias.map(c => c.total),
+                        backgroundColor: cores,
+                        borderWidth: 2,
+                        borderColor: '#fff'
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: {
+                        legend: {
+                            position: 'bottom',
+                            labels: {
+                                padding: 15,
+                                font: {
+                                    size: 12
+                                }
+                            }
+                        },
+                        tooltip: {
+                            callbacks: {
+                                label: function(context) {
+                                    const label = context.label || '';
+                                    const value = context.parsed || 0;
+                                    const total = context.dataset.data.reduce((a, b) => a + b, 0);
+                                    const percentage = ((value / total) * 100).toFixed(1);
+                                    return `${label}: R$ ${value.toLocaleString('pt-BR', {minimumFractionDigits: 2})} (${percentage}%)`;
+                                }
+                            }
+                        }
+                    }
+                }
+            });
+        }
+
+        function exibirCategorias(categorias) {
+            const container = document.getElementById('categoriesList');
+            container.innerHTML = '';
+
+            categorias.forEach(categoria => {
+                const card = document.createElement('div');
+                card.className = 'category-card';
+                card.dataset.categoria = categoria.nome;
+
+                const header = document.createElement('div');
+                header.className = 'category-header';
+                header.innerHTML = `
+                    <div class="category-name">${categoria.nome}</div>
+                    <div class="category-total">R$ ${categoria.total.toLocaleString('pt-BR', {minimumFractionDigits: 2})}</div>
+                `;
+                card.appendChild(header);
+
+                // Ordenar itens por valor
+                const itensOrdenados = categoria.itens.sort((a, b) => b.valor - a.valor);
+
+                itensOrdenados.forEach(item => {
+                    const itemDiv = document.createElement('div');
+                    itemDiv.className = 'item';
+                    itemDiv.dataset.fonte = item.fonte;
+                    itemDiv.dataset.descricao = item.linha_original.toLowerCase();
+
+                    let detalhes = '';
+                    if (item.parcela_atual && item.parcelas_total) {
+                        detalhes = `<span class="parcela-badge">Parcela ${item.parcela_atual}/${item.parcelas_total}</span>`;
+                    }
+                    detalhes += `<span class="fonte-badge">${item.fonte}</span>`;
+
+                    itemDiv.innerHTML = `
+                        <div class="item-info">
+                            <div class="item-descricao">${item.linha_original.substring(0, 80)}${item.linha_original.length > 80 ? '...' : ''}</div>
+                            <div class="item-detalhes">${detalhes}</div>
+                        </div>
+                        <div class="item-valor">R$ ${item.valor.toLocaleString('pt-BR', {minimumFractionDigits: 2})}</div>
+                    `;
+                    card.appendChild(itemDiv);
+                });
+
+                container.appendChild(card);
+            });
+        }
+
+        function filtrarCategorias(categoriasOriginais) {
+            const filtroCategoria = document.getElementById('filterCategoria').value;
+            const filtroFonte = document.getElementById('filterFonte').value;
+            const filtroBusca = document.getElementById('filterBusca').value.toLowerCase();
+
+            let categoriasFiltradas = categoriasOriginais;
+
+            // Filtrar por categoria
+            if (filtroCategoria) {
+                categoriasFiltradas = categoriasFiltradas.filter(cat => cat.nome === filtroCategoria);
+            }
+
+            // Filtrar por fonte ou busca nos itens
+            if (filtroFonte || filtroBusca) {
+                categoriasFiltradas = categoriasFiltradas.map(cat => {
+                    const itensFiltrados = cat.itens.filter(item => {
+                        const matchFonte = !filtroFonte || item.fonte === filtroFonte;
+                        const matchBusca = !filtroBusca || item.linha_original.toLowerCase().includes(filtroBusca);
+                        return matchFonte && matchBusca;
+                    });
+
+                    if (itensFiltrados.length > 0) {
+                        return {
+                            ...cat,
+                            itens: itensFiltrados,
+                            total: itensFiltrados.reduce((sum, item) => sum + item.valor, 0)
+                        };
+                    }
+                    return null;
+                }).filter(cat => cat !== null);
+            }
+
+            exibirCategorias(categoriasFiltradas);
+        }
+
+        function calcularPrevisaoParcelas(dados) {
+            // Filtrar apenas compras parceladas
+            const parceladas = dados.filter(item => item.parcela_atual && item.parcelas_total);
+
+            // Criar um mapa de meses com as parcelas
+            const mesesPrevisao = {};
+            const dataAtual = new Date();
+            const mesAtual = dataAtual.getMonth();
+            const anoAtual = dataAtual.getFullYear();
+
+            parceladas.forEach(item => {
+                const parcelasRestantes = item.parcelas_total - item.parcela_atual + 1;
+                
+                for (let i = 0; i < parcelasRestantes; i++) {
+                    const mes = (mesAtual + i) % 12;
+                    const ano = anoAtual + Math.floor((mesAtual + i) / 12);
+                    const chave = `${ano}-${String(mes + 1).padStart(2, '0')}`;
+                    const nomeMes = new Date(ano, mes).toLocaleDateString('pt-BR', { month: 'long', year: 'numeric' });
+
+                    if (!mesesPrevisao[chave]) {
+                        mesesPrevisao[chave] = {
+                            chave: chave,
+                            nome: nomeMes,
+                            total: 0,
+                            parcelas: []
+                        };
+                    }
+
+                    mesesPrevisao[chave].total += item.valor;
+                    mesesPrevisao[chave].parcelas.push({
+                        descricao: item.linha_original.substring(0, 60),
+                        valor: item.valor,
+                        parcela: item.parcela_atual + i,
+                        total: item.parcelas_total
+                    });
+                }
+            });
+
+            // Ordenar por data
+            const mesesArray = Object.values(mesesPrevisao).sort((a, b) => a.chave.localeCompare(b.chave));
+
+            // Exibir previsão
+            const container = document.getElementById('previsaoList');
+            container.innerHTML = '';
+
+            if (mesesArray.length === 0) {
+                container.innerHTML = '<p style="text-align: center; color: #666; font-size: 1.2em;">Nenhuma compra parcelada encontrada.</p>';
+                return;
+            }
+
+            mesesArray.forEach(mes => {
+                const mesCard = document.createElement('div');
+                mesCard.className = 'mes-card';
+
+                const header = document.createElement('div');
+                header.className = 'mes-header';
+                header.innerHTML = `
+                    <div class="mes-nome">📅 ${mes.nome.charAt(0).toUpperCase() + mes.nome.slice(1)}</div>
+                    <div class="mes-total">R$ ${mes.total.toLocaleString('pt-BR', {minimumFractionDigits: 2})}</div>
+                `;
+                mesCard.appendChild(header);
+
+                mes.parcelas.forEach(parcela => {
+                    const parcelaDiv = document.createElement('div');
+                    parcelaDiv.className = 'parcela-item';
+                    parcelaDiv.innerHTML = `
+                        <div>
+                            <strong>${parcela.descricao}</strong>
+                            <span style="margin-left: 10px; opacity: 0.8;">(${parcela.parcela}/${parcela.total})</span>
+                        </div>
+                        <div style="font-weight: bold; font-size: 1.1em;">R$ ${parcela.valor.toLocaleString('pt-BR', {minimumFractionDigits: 2})}</div>
+                    `;
+                    mesCard.appendChild(parcelaDiv);
+                });
+
+                container.appendChild(mesCard);
+            });
+        }
+    </script>
+</body>
+</html>
+

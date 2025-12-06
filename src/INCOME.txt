@@ -1,0 +1,48 @@
+Fonte|"Descrição"|Mês|Tipo|"Valor"|Recorrência
+Meli|[Salário + Bônus]|Dezembro/2025|Salário|[26729.36]|Mensal
+Meli|[Salário]|Janeiro/2026|Salário|[21808.26]|Mensal
+Meli|[Salário]|Fevereiro/2026|Salário|[21808.26]|Mensal
+Meli|[Salário]|Março/2026|Salário|[21808.26]|Mensal
+Meli|[Salário]|Abril/2026|Salário|[21808.26]|Mensal
+Meli|[Salário]|Maio/2026|Salário|[21808.26]|Mensal
+Meli|[Salário]|Junho/2026|Salário|[21808.26]|Mensal
+Meli|[Salário]|Julho/2026|Salário|[21808.26]|Mensal
+Meli|[Salário]|Agosto/2026|Salário|[21808.26]|Mensal
+Meli|[Salário]|Setembro/2026|Salário|[21808.26]|Mensal
+Meli|[Salário]|Outubro/2026|Salário|[21808.26]|Mensal
+Meli|[Salário]|Novembro/2026|Salário|[21808.26]|Mensal
+Meli|[Salário]|Dezembro/2026|Salário|[21808.26]|Mensal
+Meli|[2ª parcela do 13º salário]|Dezembro/2025|Salário|[8028.00]|Pontual
+Neuro|[Salário]|Dezembro/2025|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Janeiro/2026|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Fevereiro/2026|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Março/2026|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Abril/2026|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Maio/2026|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Junho/2026|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Julho/2026|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Agosto/2026|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Setembro/2026|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Outubro/2026|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Novembro/2026|Salário|[15000.00]|Mensal
+Neuro|[Salário]|Dezembro/2026|Salário|[15000.00]|Mensal
+Outros|[Venda do Switch]|Dezembro/2025|Parcela 2/8|[300.00]|Pontual
+Outros|[Venda do Switch]|Janeiro/2026|Parcela 3/8|[150.00]|Pontual
+Outros|[Venda do Switch]|Fevereiro/2026|Parcela 4/8|[150.00]|Pontual
+Outros|[Venda do Switch]|Março/2026|Parcela 5/8|[150.00]|Pontual
+Outros|[Venda do Switch]|Abril/2026|Parcela 6/8|[150.00]|Pontual
+Outros|[Venda do Switch]|Maio/2026|Parcela 7/8|[150.00]|Pontual
+Outros|[Venda do Switch]|Junho/2026|Parcela 8/8|[150.00]|Pontual
+Outros|[Plano de saúde - Regina]|Dezembro/2025|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Janeiro/2026|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Fevereiro/2026|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Março/2026|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Abril/2026|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Maio/2026|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Junho/2026|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Julho/2026|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Agosto/2026|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Setembro/2026|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Outubro/2026|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Novembro/2026|Extra|[4583.27]|Mensal
+Outros|[Plano de saúde - Regina]|Dezembro/2026|Extra|[4583.27]|Mensal

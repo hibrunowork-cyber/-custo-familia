@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Gastos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="chart-section">
+            <div class="chart-wrapper">
+                <div class="chart-container">
+                    <canvas id="pieChart"></canvas>
+                </div>
+                <div class="chart-legend" id="chartLegend"></div>
+            </div>
+        </div>
+
+        <!-- INCOMES (Receitas) ✨ PRIMEIRA SEÇÃO -->
+        <div class="list-section list-section-income">
+            <div class="filters-row income-title-row">
+                <h2 class="income-title">Income</h2>
+                <button id="btnResetarFiltrosIncome" class="btn-cta">Resetar Filtros</button>
+            </div>
+            
+            <div class="filters-row">   
+                <div class="filter-group">
+                    <label for="filterMesIncome">Mês:</label>
+                    <select id="filterMesIncome">
+                        <option value="">Todas</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterFonteIncome">Fonte:</label>
+                    <select id="filterFonteIncome">
+                        <option value="">Todas</option>
+                        <option value="consultório">Consultório</option>
+                        <option value="meli">Meli</option>
+                        <option value="outros">Outros</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterRecorrenciaIncome">Recorrência:</label>
+                    <select id="filterRecorrenciaIncome">
+                        <option value="">Todas</option>
+                        <option value="anual">Anual</option>
+                        <option value="mensal">Mensal</option>
+                        <option value="pontual">Pontual</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="categories-header">
+                <div class="fonte-total-box">
+                    <div class="fonte-total-value" id="fonteTotalIncome">R$ 0,00</div>
+                </div>
+                <div class="comparacao-mes" id="comparacaoMesIncome">
+                    <div class="comparacao-valor" id="comparacaoValorIncome">- R$ 0,00</div>
+                    <div class="comparacao-label" id="comparacaoLabelIncome">Sem dados</div>
+                    <div class="comparacao-indicador" id="comparacaoIndicadorIncome"></div>
+                </div>
+            </div>
+
+            <div id="categoriesListIncome"></div>
+        </div>
+
+        <!-- OUTCOMES (Despesas) 💸 SEGUNDA SEÇÃO -->
+        <div class="list-section">
+            <div class="filters-row outcome-title-row">
+                <h2 class="outcome-title">Outcome</h2>
+                <label class="form-switch">
+                    <input type="checkbox" id="toggleConsolidado" checked>
+                    <i></i>
+                </label>
+            </div>
+            
+            <div class="filters-row">
+                <div class="filter-group">
+                    <label for="filterCarteira">Carteira:</label>
+                    <select id="filterCarteira">
+                        <option value="">Todas</option>
+                        <option value="Pessoal">Pessoal</option>
+                        <option value="Consultório">Consultório</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterCategoria">Categoria:</label>
+                    <select id="filterCategoria">
+                        <option value="">Todas</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterFonte">Fonte:</label>
+                    <select id="filterFonte">
+                        <option value="">Todas</option>
+                        <option value="Sant-Bru">Sant-Bru</option>
+                        <option value="Sant-Gab">Sant-Gab</option>
+                        <option value="Itau">Itau</option>
+                        <option value="Nubank">Nubank</option>
+                        <option value="Débito">Débito</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="filters-row">
+                <div class="filter-group">
+                    <label for="filterMes">Mês:</label>
+                    <select id="filterMes">
+                        <option value="">Todas</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label for="filterCobranca">Cobrança:</label>
+                    <select id="filterCobranca">
+                        <option value="todas">Todas</option>
+                        <option value="simples">Simples</option>
+                        <option value="parceladas">Parceladas</option>
+                        <option value="anual">Anual</option>
+                        <option value="fixa">Fixa</option>
+                    </select>
+                </div>
+                <div class="filter-group filter-search">
+                    <input type="text" id="filterBusca" placeholder="🔍 Buscar...">
+                </div>
+            </div>
+            
+            <div class="ctas-row">
+                <button id="btnResetarFiltros" class="btn-cta">Resetar</button>
+                <button id="btnDownloadPDF" class="btn-cta">Download</button>
+            </div>
+            
+            <div class="categories-header">
+                <div class="fonte-total-box">
+                    <div class="fonte-total-value" id="fonteTotal">R$ 0,00</div>
+                </div>
+                <div class="comparacao-mes" id="comparacaoMes">
+                    <div class="comparacao-valor" id="comparacaoValor">- R$ 0,00</div>
+                    <div class="comparacao-label" id="comparacaoLabel">Sem dados</div>
+                    <div class="comparacao-indicador" id="comparacaoIndicador"></div>
+                </div>
+            </div>
+
+            <div id="categoriesList"></div>
+        </div>
+    </div>
+
+    <script>
+        // Carregar dados dos arquivos JSON processados
+        Promise.all([
+            fetch("dados_processados.json").then(r => r.json()),
+            fetch("dados_processados_income.json").then(r => r.json())
+        ]).then(([dados, dadosIncome]) => {
+            window.dados = dados;
+            window.dadosIncome = dadosIncome;
+            inicializarDashboard(dados);
+            if (typeof inicializarIncome === 'function') {
+                inicializarIncome(dadosIncome);
+            }
+        }).catch(err => {
+            console.error("Erro ao carregar dados:", err);
+            document.body.innerHTML = "<div style=\"padding: 20px; text-align: center;\"><h1>Erro ao carregar dados</h1><p>Verifique se os arquivos dados_processados.json e dados_processados_income.json existem.</p></div>";
+        });
+    </script>
+</body>
+</html>
