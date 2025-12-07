@@ -462,13 +462,13 @@ function processarIncomeTxt(texto) {
 async function carregarDadosTxt() {
     try {
         // Carregar OUTCOME.txt
-        const responseOutcome = await fetch('/src/OUTCOME.txt');
+        const responseOutcome = await fetch('./src/OUTCOME.txt');
         if (!responseOutcome.ok) throw new Error(`Erro ao carregar OUTCOME.txt: ${responseOutcome.status}`);
         const textoOutcome = await responseOutcome.text();
         const dadosOutcome = processarOutcomeTxt(textoOutcome);
-        
+
         // Carregar INCOME.txt
-        const responseIncome = await fetch('/src/INCOME.txt');
+        const responseIncome = await fetch('./src/INCOME.txt');
         if (!responseIncome.ok) throw new Error(`Erro ao carregar INCOME.txt: ${responseIncome.status}`);
         const textoIncome = await responseIncome.text();
         const dadosIncome = processarIncomeTxt(textoIncome);
