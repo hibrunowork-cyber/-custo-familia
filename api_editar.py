@@ -1,14 +1,18 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, send_from_directory, send_file
 from flask_cors import CORS
 import os
 
-app = Flask(__name__)
+# Obter o diretório base do projeto
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+app = Flask(__name__, static_folder=BASE_DIR, static_url_path='')
 CORS(app)  # Permitir requisições do frontend
 
-ARQUIVO_OUTCOME = 'src/OUTCOME.txt'
+ARQUIVO_OUTCOME = os.path.join(BASE_DIR, 'src/OUTCOME.txt')
+ARQUIVO_INCOME = os.path.join(BASE_DIR, 'src/INCOME.txt')
 
 @app.route('/editar_lancamento', methods=['POST'])
 def editar_lancamento():
@@ -67,8 +71,31 @@ def editar_lancamento():
 def health():
     return jsonify({'status': 'ok'})
 
+# Rota para servir o index.html na raiz
+@app.route('/')
+def index():
+    return send_file(os.path.join(BASE_DIR, 'index.html'))
+
+# Rota para servir arquivos estáticos (CSS, JS, SVG, TXT)
+@app.route('/<path:filename>')
+def serve_static(filename):
+    # Servir arquivos que existem no diretório raiz ou subdiretórios
+    file_path = os.path.join(BASE_DIR, filename)
+    if os.path.exists(file_path) and os.path.isfile(file_path):
+        response = send_from_directory(BASE_DIR, filename)
+        # Adicionar headers para evitar cache em arquivos JS e CSS
+        if filename.endswith(('.js', '.css')):
+            response.headers['Cache-Control'] = 'no-cache, no-store, must-revalidate'
+            response.headers['Pragma'] = 'no-cache'
+            response.headers['Expires'] = '0'
+        return response
+    
+    return jsonify({'error': 'Arquivo não encontrado'}), 404
+
 if __name__ == '__main__':
-    print('🚀 Servidor de edição iniciado na porta 5000')
-    print('📝 Pronto para receber requisições de edição')
-    app.run(host='127.0.0.1', port=5000, debug=False)
+    PORT = 8000
+    print('🚀 Servidor iniciado na porta', PORT)
+    print('🌐 Acesse o projeto em: http://127.0.0.1:' + str(PORT))
+    print('📝 API de edição disponível em: http://127.0.0.1:' + str(PORT) + '/editar_lancamento')
+    app.run(host='127.0.0.1', port=PORT, debug=False)
 

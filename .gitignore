@@ -56,3 +56,6 @@ backups/
 # dados_processados.json
 # dados_processados_income.json
 
+# History files
+.history/
+

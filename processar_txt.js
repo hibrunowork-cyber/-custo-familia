@@ -41,10 +41,20 @@ function processarLinhaOutcome(linha) {
     
     const partes = linha.trim().split('|');
     
-    // Formato: Carteira|Fonte|"Descrição"|"Valor"|Mês|Recorrência|Parcelado|Parcelas|"Categoria"
-    if (partes.length !== 9) return null;
+    // Formato: Carteira|Fonte|"Descrição"|"Valor"|Mês|Recorrência|Parcelado|Parcelas|"Categoria"|"Caution"
+    // Aceitar 9 ou 10 colunas (a última coluna "Caution" é opcional)
+    if (partes.length < 9 || partes.length > 10) return null;
     
-    const [carteira, fonte, descricao_str, valor_str, mes_str, recorencia_str, parcelado_str, parcelas_str, categoria_str] = partes;
+    const carteira = partes[0];
+    const fonte = partes[1];
+    const descricao_str = partes[2];
+    const valor_str = partes[3];
+    const mes_str = partes[4];
+    const recorencia_str = partes[5];
+    const parcelado_str = partes[6];
+    const parcelas_str = partes[7];
+    const categoria_str = partes[8];
+    const caution_str = partes.length > 9 ? partes[9] : null;
     
     // Pular linha de cabeçalho
     if (!fonte || !carteira || fonte.trim() === "Fonte" || carteira.trim() === "Carteira") return null;
@@ -211,6 +221,10 @@ function processarLinhaOutcome(linha) {
         meses_parcelas.push({chave: mes_chave, nome: MESES_PT[mes_inicio], parcela: null});
     }
     
+    // Processar caution
+    const caution_limpo = caution_str ? limparCampo(caution_str) : null;
+    const tem_caution = caution_limpo && caution_limpo.toLowerCase() !== '-' && caution_limpo.toLowerCase() !== '';
+    
     return {
         linha_original: linha ? linha.trim().replace(/\|/g, ' ') : '',
         carteira: carteira_limpa,
@@ -223,7 +237,8 @@ function processarLinhaOutcome(linha) {
         valor: valor || 0.0,
         parcela_atual: parcela_atual,
         parcelas_total: parcelas_total,
-        meses_parcelas: meses_parcelas || []
+        meses_parcelas: meses_parcelas || [],
+        caution: tem_caution
     };
 }
 
@@ -447,13 +462,13 @@ function processarIncomeTxt(texto) {
 async function carregarDadosTxt() {
     try {
         // Carregar OUTCOME.txt
-        const responseOutcome = await fetch('src/OUTCOME.txt');
+        const responseOutcome = await fetch('/src/OUTCOME.txt');
         if (!responseOutcome.ok) throw new Error(`Erro ao carregar OUTCOME.txt: ${responseOutcome.status}`);
         const textoOutcome = await responseOutcome.text();
         const dadosOutcome = processarOutcomeTxt(textoOutcome);
         
         // Carregar INCOME.txt
-        const responseIncome = await fetch('src/INCOME.txt');
+        const responseIncome = await fetch('/src/INCOME.txt');
         if (!responseIncome.ok) throw new Error(`Erro ao carregar INCOME.txt: ${responseIncome.status}`);
         const textoIncome = await responseIncome.text();
         const dadosIncome = processarIncomeTxt(textoIncome);

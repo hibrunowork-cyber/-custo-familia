@@ -274,9 +274,11 @@ function criarGraficoPizza(categorias) {
             <div class="legend-color" style="background-color: ${cores[index]}"></div>
             <div class="legend-info">
                 <div class="legend-name">${categoria.nome}</div>
-                <div class="legend-value">R$ ${categoria.total.toLocaleString('pt-BR', {minimumFractionDigits: 2})}</div>
+                <div class="legend-value-percentage">
+                    <span class="legend-value">R$ ${categoria.total.toLocaleString('pt-BR', {minimumFractionDigits: 2})}</span>
+                    <span class="legend-percentage">${percentage}%</span>
+                </div>
             </div>
-            <div class="legend-percentage">${percentage}%</div>
         `;
         
         legendContainer.appendChild(legendItem);
@@ -456,7 +458,11 @@ function criarItemDiv(item) {
 
 function criarItemDivOutcome(item, mesFiltrado = '') {
     const itemDiv = document.createElement('div');
-    itemDiv.className = 'item outcome-item';
+    let className = 'item outcome-item';
+    if (item.caution) {
+        className += ' item-caution';
+    }
+    itemDiv.className = className;
     itemDiv.dataset.fonte = item.fonte;
     itemDiv.dataset.subcategoria = item.subcategoria;
     itemDiv.dataset.descricao = item.linha_original.toLowerCase();

@@ -1,6 +1,7 @@
 Fonte|"Descrição"|Mês|Tipo|"Valor"|Recorrência
-Meli|[Salário + Bônus]|Dezembro/2025|Salário|[26729.36]|Mensal
+Meli|[Salário + Bônus]|Dezembro/2025|Salário|[26729.36]|Pontual
 Meli|[Salário]|Janeiro/2026|Salário|[21808.26]|Mensal
+Meli|[Bonus de retenção]|Janeiro/2026|Extra|[16000]|Pontual
 Meli|[Salário]|Fevereiro/2026|Salário|[21808.26]|Mensal
 Meli|[Salário]|Março/2026|Salário|[21808.26]|Mensal
 Meli|[Salário]|Abril/2026|Salário|[21808.26]|Mensal
@@ -46,3 +47,32 @@ Outros|[Plano de saúde - Regina]|Setembro/2026|Extra|[4583.27]|Mensal
 Outros|[Plano de saúde - Regina]|Outubro/2026|Extra|[4583.27]|Mensal
 Outros|[Plano de saúde - Regina]|Novembro/2026|Extra|[4583.27]|Mensal
 Outros|[Plano de saúde - Regina]|Dezembro/2026|Extra|[4583.27]|Mensal
+Outros|[Reembolso Terapia Bru]|Dezembro/2025|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Janeiro/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Fevereiro/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Março/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Abril/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Maio/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Junho/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Julho/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Agosto/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Setembro/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Outubro/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Novembro/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Bru]|Dezembro/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Dezembro/2025|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Janeiro/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Fevereiro/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Março/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Abril/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Maio/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Junho/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Julho/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Agosto/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Setembro/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Outubro/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Novembro/2026|Extra|[1200]|Mensal
+Outros|[Reembolso Terapia Dio]|Dezembro/2026|Extra|[1200]|Mensal
+Meli|[Vale Alimentação]|Dez/2025|Extra|[1600]|Mensal
+Meli|[Auxílio Creche]|Dez/2025|Extra|[500]|Mensal
+Meli|[Auxílio Farmácia]|Dez/2025|Extra|[250]|Mensal

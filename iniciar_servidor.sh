@@ -14,7 +14,7 @@ fi
 
 echo "✅ Servidor pronto!"
 echo "📝 Você agora pode editar lançamentos fixos permanentemente"
-echo "🌐 Servidor rodando em: http://127.0.0.1:5000"
+echo "🌐 Servidor rodando em: http://127.0.0.1:8000"
 echo ""
 echo "⚠️  Para parar o servidor, pressione Ctrl+C"
 echo ""

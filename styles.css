@@ -55,8 +55,8 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .chart-container {
-    width: 350px;
-    height: 350px;
+    width: 250px;
+    height: 250px;
     position: relative;
     flex-shrink: 0;
 }
@@ -79,22 +79,32 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .legend-color {
-    width: 15px;
-    height: 15px;
-    border-radius: 3px;
+    width: 6px;
+    height: 12px;
+    border-radius: 1px;
     margin-right: 8px;
     flex-shrink: 0;
 }
 
 .legend-info {
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
 }
 
 .legend-name {
     font-weight: 600;
     color: #333;
-    margin-bottom: 2px;
     font-size: 0.8em;
+    flex: 1;
+}
+
+.legend-value-percentage {
+    display: flex;
+    align-items: center;
+    gap: 8px;
 }
 
 .legend-value {
@@ -103,10 +113,9 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .legend-percentage {
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: bold;
-    color: #667eea;
-    margin-left: 8px;
+    color: #000000;
 }
 
 .list-section {
@@ -130,10 +139,18 @@ h1, h2, h3, h4, h5, h6,
 
 .income-title-row,
 .outcome-title-row {
-    display: flex;
-    justify-content: space-between;
+    display: grid;
     align-items: center;
+    grid-template-columns: 110px 1fr 120px 150px 110px;
+    gap: 50px;
     margin-bottom: 20px;
+}
+
+.toggle-container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: flex-start;
+    gap: 8px;
 }
 
 .income-title,
@@ -158,7 +175,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 .btn-cta:hover {
-    background-color: #5568D3;
+    background-color: #d0d0d0;
 }
 
 .btn-cta:active {
@@ -529,6 +546,11 @@ h1, h2, h3, h4, h5, h6,
 
 .item-novo:hover {
     background: #FFEEBB !important;
+}
+
+.item-caution {
+    outline: 2px solid #ff0000;
+    outline-offset: -2px;
 }
 
 @keyframes fadeIn {

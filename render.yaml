@@ -1,0 +1,9 @@
+services:
+  - type: web
+    name: custo-familia
+    env: python
+    buildCommand: pip install -r requirements_api.txt
+    startCommand: gunicorn api_editar:app --bind 0.0.0.0:$PORT
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
